@@ -15,31 +15,57 @@
 //     console.log("price is Rs. 50");
 // }
 
+// Assignment : use switch case
 
-let day = 3;
+// let day = 3;
 
-switch(day){
-    case 1:
-        console.log("Monday");
+// switch(day){
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2: 
+//         console.log("Tuesday");
+//         break;
+//     case 3: 
+//         console.log("Wednesday");
+//         break;
+//     case 4: 
+//         console.log("Thursday");
+//         break;
+//     case 5: 
+//         console.log("Friday");
+//         break;
+//     case 6: 
+//         console.log("Saturday");
+//         break;
+//     case 7: 
+//         console.log("Sunday");
+//         break;
+//     default:
+//         console.log("Wrong Day!");
+// }
+
+
+
+// for (let i=1; i<=15; i++ ){
+//     if(i%2!==0){
+//         console.log(i);
+//     }
+// }
+
+
+// Assignment : check whether a guess by user of favorite movie name is correct or not
+
+const favmovie="avatar";
+let guess = prompt("Guess my favorite movie name");
+
+while(guess!=favmovie){
+    if(guess=="quit"){
+        console.log("You have quit the game");
         break;
-    case 2: 
-        console.log("Tuesday");
-        break;
-    case 3: 
-        console.log("Wednesday");
-        break;
-    case 4: 
-        console.log("Thursday");
-        break;
-    case 5: 
-        console.log("Friday");
-        break;
-    case 6: 
-        console.log("Saturday");
-        break;
-    case 7: 
-        console.log("Sunday");
-        break;
-    default:
-        console.log("Wrong Day!");
+    }
+    guess = prompt("Wrong Guess! Try Again");
+}
+if(guess==favmovie){
+    console.log("Congrats! You guessed it right");
 }

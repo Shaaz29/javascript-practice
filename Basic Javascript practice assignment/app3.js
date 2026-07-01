@@ -33,3 +33,20 @@ primary.splice(0 , 1 , "white", "grey");
 
 // for sorting of array , note: only applicable for strings and chars in array 
 primary.sort();
+
+
+
+
+// Assignment Question:
+// let n = 4;
+// let arr1 = [7, 9, 0, -2];
+// let ans=arr1.slice(0,n);
+// console.log(ans);
+
+
+// Assignment Question:
+
+let n = 3;
+let arr1 = [7, 9, 0, -2];
+let ans=arr1.slice(arr1.length-n);
+console.log(ans);
