@@ -56,16 +56,29 @@
 
 // Assignment : check whether a guess by user of favorite movie name is correct or not
 
-const favmovie="avatar";
-let guess = prompt("Guess my favorite movie name");
+// const favmovie="avatar";
+// let guess = prompt("Guess my favorite movie name");
 
-while(guess!=favmovie){
-    if(guess=="quit"){
-        console.log("You have quit the game");
-        break;
+// while(guess!=favmovie){
+//     if(guess=="quit"){
+//         console.log("You have quit the game");
+//         break;
+//     }
+//     guess = prompt("Wrong Guess! Try Again");
+// }
+// if(guess==favmovie){
+//     console.log("Congrats! You guessed it right");
+// }
+
+
+// Nested Arrays loop:
+
+let heroes=[
+    ["batman", "superman", "spiderman"],
+    ["ironman", "thor", "hulk"]
+]
+for(let i=0; i<heroes.length; i++){
+    for(let j=0; j<heroes[i].length; j++){
+        console.log(heroes[i][j]);
     }
-    guess = prompt("Wrong Guess! Try Again");
-}
-if(guess==favmovie){
-    console.log("Congrats! You guessed it right");
 }
