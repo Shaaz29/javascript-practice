@@ -38,10 +38,10 @@ primary.sort();
 
 
 // Assignment Question:
-// let n = 4;
-// let arr1 = [7, 9, 0, -2];
-// let ans=arr1.slice(0,n);
-// console.log(ans);
+let n = 4;
+let arr1 = [7, 9, 0, -2];
+let ans=arr1.slice(0,n);
+console.log(ans);
 
 
 // Assignment Question:
