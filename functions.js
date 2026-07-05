@@ -60,3 +60,40 @@ changeGreet();
 let sum = function(a, b) {
     return a + b;
 }
+
+
+
+
+// Function to generate a random number from 1 to 6 (like a dice):
+
+function randomDice(){
+    let random=Math.floor(Math.random()*6)+1;
+    console.log(random);
+}
+
+randomDice();
+
+
+
+// Set Timeout Function:
+
+console.log("hi there!");
+
+setTimeout( ()=> {
+    console.log("Ahmad Shaaz");
+} , 4000);
+
+console.log("How are you?");
+
+
+
+// Set Interval Function:
+
+console.log("hi there!");
+
+id1 = setInterval( ()=> {
+    console.log("Ahmad Shaaz");
+} , 4000);
+
+console.log(id1); 
+
