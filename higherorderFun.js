@@ -1,4 +1,4 @@
-// Use of the forEach method to iterate over the array and log each number to the console.
+// Use of the forEach method to iterate over the array and log each number to  console.
 
 let arr = [1, 2, 3, 4, 5];
 
@@ -56,3 +56,4 @@ let names = ["tony","bruce","peter","steve","abc","xyz","pyq"];
 // let runnerup = names[1];
 
 let [winner , runnerup , ...others] = names;
+
