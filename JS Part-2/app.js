@@ -16,7 +16,21 @@ let newP = document.createElement('p');
 
 newP.innerText="Hi this is new paragraph";
 
-
 let body = document.querySelector('body');
 
+// append adds at starting 
+
 body.appendChild(newP);
+
+
+
+// prepends adds at ending
+//  insertAdjacentElement(Where,element);
+
+let btn = document.createElement('button');
+
+btn.innerText="click me !";
+
+let p = document.querySelector('p');
+
+p.insertAdjacentElement('beforebegin',btn);
