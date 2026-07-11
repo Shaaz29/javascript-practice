@@ -23,3 +23,48 @@ inp.addEventListener("keydown", function(event){
     console.log("code =",event.code);
     console.log("key was pressed");
 });
+
+
+// For Form Event Listener:
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log("form submitted");
+});
+
+
+
+// Extracting data from form:
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+let inp = document.querySelector("input");
+    console.dir(inp);
+    console.log(inp.value);
+});
+
+
+// For change Event:
+
+
+let user = document.querySelector("#user");
+
+user.addEventListener("change",function(event){
+    event.preventDefault();
+    console.log("input changed");
+    console.log("final value = ",this.value);
+});
+
+
+// For input event :
+
+user.addEventListener("input",function(event){
+    event.preventDefault();
+    console.log("input changed");
+    console.log("final value = ",this.value);
+});
